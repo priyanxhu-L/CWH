@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Fitness Form</h1>
+    <form action="/process.php">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="age">Age:</label>
+        <input type="age" id="age" name="age" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <input type="number" id="age" name="age" min="1" max="120" required><br><br>
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br><br>
+        <label for="workout">Workout Preference:</label><br>
+        <input type="checkbox" id="cardio" name="workout" value="cardio">
+        <label for="cardio">Cardio</label><br>
+        <input type="checkbox" id="strength" name="workout" value="strength">
+        <label for="strength">Strength Training</label><br>
+        <input type="checkbox" id="yoga" name="workout" value="yoga">
+        <label for="yoga">Yoga</label><br><br>
+        <input type="submit" value="Submit">
+        <input type="text" placeholder="Enter your name">
+        <form>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com"><br><br>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="pass"><br><br>
+            <input type="submit" value="Login">
+        </form>
+</body>
+
+</html>
