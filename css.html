@@ -1,21 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS HTML</title>
-    <style>
-      span{
-        color: green;
-        font-family: Arial, sans-serif;
-        font-size: 16px;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS HTML</title>
+  <style>
+    #div1 {
+      .box {
+        width: 300px;
+        height: 150px;
+        padding: 20px;
+        border: 5px solid gray;
+        margin: 40px;
       }
-    </style>
-    <link rel="stylesheet" href="style.css">
+    }
+    .card {
+      width: 400px;
+      padding: 20px;
+      border: 10px solid black;
+      box-sizing: border-box;
+    }
+
+    span {
+      color: green;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>CSS</h1>
-    <span>I Am using CSS For Making My Web Pages Look Better</span>
-    <p style="color: blue; font-size: 18px;">CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of a document written in HTML or XML. CSS defines how elements should be displayed on screen, paper, or in other media. It allows you to control the layout, colors, fonts, and overall visual appearance of web pages.</p>
+  <h1>CSS</h1>
+  <div class="card"></div>
+  <span>I Am using CSS For Making My Web Pages Look Better</span>
+  <p style="color: blue; font-size: 18px;">CSS (Cascading Style Sheets) is a stylesheet language used to describe the
+    presentation of a document written in HTML or XML. CSS defines how elements should be displayed on screen, paper, or
+    in other media. It allows you to control the layout, colors, fonts, and overall visual appearance of web pages.</p>
+  <div>
+    This has to be div element with a background color.
+  </div>
+  <span id="span1">This is a span element.</span>
+  <span id="span2">This is a span element.</span>
+  <div id="div1">
+    Div 1
+  </div>
 </body>
 </html>
